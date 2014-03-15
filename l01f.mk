@@ -23,12 +23,12 @@ PRODUCT_COPY_FILES := device/lge/L01F/overlay/packages/providers/TelephonyProvid
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-PRODUCT_DEVICE := L01F
-PRODUCT_NAME := full_L01F
+PRODUCT_DEVICE := l01f
+PRODUCT_NAME := full_l01f
 PRODUCT_BRAND := LGE
-PRODUCT_MODEL := LG-L01F
+PRODUCT_MODEL := L01F
 PRODUCT_MANUFACTURER := lge
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/lge/L01F/device.mk)
+$(call inherit-product, device/lge/l01f/device.mk)
