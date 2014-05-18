@@ -35,6 +35,6 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 # NFC packages
-PRODUCT_PACKAGES += \
-    nfc_nci.g2 \
-    NfcNci
+#PRODUCT_PACKAGES += \
+#    nfc_nci.g2 \
+#    NfcNci
