@@ -1,3 +1,6 @@
 #emoji
 ro.config.libemoji=libemoji_docomo.so
 ro.lge.capp_emoji_dcm=true
+
+# for 1920x1080 panel
+ro.sf.lcd_density=370
